@@ -1,0 +1,27 @@
+:root{box-sizing: border-box;
+    font-family:Roboto;
+    margin: 0px;
+    padding: 0px;
+    
+    }
+
+html {
+       scroll-behavior:smooth;
+}  
+
+body{
+    margin: 0;
+    overflow-x: hidden;
+}
+    *,
+    ::before,
+    ::after{box-sizing: inherit;}
+
+.opfor-main{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(/pictures/Логотип_нашивка_OPFOR.pdf.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
