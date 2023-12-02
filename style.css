@@ -5,6 +5,7 @@
     /*font-family:Roboto;*/
     margin: 0px;
     padding: 0px;
+    
     }
 
 html {
@@ -21,7 +22,7 @@ html {
 body{
     margin: 0;
     overflow-x: hidden;
-    background-color:rgba(249, 249, 129, 0.9);
+    background-color:#f9f981;
 }
     *,
     ::before,
@@ -68,7 +69,19 @@ a{
     text-decoration: none;
 }
 .top-nav-text{
-    font-size: 5vh;
-    color:rgb(158, 155, 93);
+    font-size: 3vh;
+    color:#9e9b5c;
 
+}
+
+.header-top-nav-signum{
+    width: 10vh;
+    height: 10vh;
+    background-image: url(/pictures/Логотип_нашивка_OPFOR.pdf.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.header-top-nav-signum:hover  {
+    cursor: pointer;
 }
