@@ -85,3 +85,10 @@ a{
 .header-top-nav-signum:hover  {
     cursor: pointer;
 }
+
+.main-front{
+    width: 70vw;
+    height: 30vh;
+    font-size: 10vw;
+    margin: 10vh auto;
+}
